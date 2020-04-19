@@ -35,6 +35,7 @@
     "css-loader": "^1.0.0",
     "ejs-loader": "^0.3.0",
     "eslint": "^5.4.0",
+    "file-loader": "^6.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "istanbul-instrumenter-loader": "^3.0.0",
@@ -74,5 +75,8 @@
     "start": "npm run server:dev",
     "test": "karma start"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "pixi.js": "^5.2.1"
+  }
 }
